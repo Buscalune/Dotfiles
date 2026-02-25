@@ -10,3 +10,5 @@ This repo contains my Arch Linux Hyprland setup:
 - `.config/waybar` — Waybar bar config
 - `.config/mako` — Mako notifications config
 - `.config/wallpapers` — Wallpapers
+
+Right now colors are hardcoded, but in the future I will add matugen support.
