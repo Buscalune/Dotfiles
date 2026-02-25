@@ -4,6 +4,7 @@ This repo contains my Arch Linux Hyprland setup:
 
 - `.zshrc` — Zsh configuration
 - `.config/fastfetch` — System info tool config
+- `.config/hypr` — Hyprland Config
 - `.config/rofi` — Rofi menu config
 - `.config/kitty` — Kitty terminal config
 - `.config/waybar` — Waybar bar config
