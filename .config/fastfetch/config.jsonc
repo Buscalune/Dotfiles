@@ -1,0 +1,36 @@
+{
+  "logo": {
+    "type": "auto",
+    "source": "~/.config/fastfetch/art.txt",
+    "padding": {
+      "left": 2
+    },
+    "color": {
+      "1": "#B56A63"
+    }
+  },
+  "padding": { "top": 1 },
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+  "display": {
+    "color": {
+      "keys": "#B56A63",
+      "separator": "#B56A63",
+      "title": "#B56A63"
+    }
+  },
+  "modules": [
+    "title",
+    "separator",
+    "os",
+    "uptime",
+    "cpu",
+    "gpu",
+    {
+      "type": "memory",
+      "percent": {
+        "type": 1,
+        "orange": 100
+      }
+    }
+  ]
+}
