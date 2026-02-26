@@ -2,8 +2,8 @@
 configuration {
     modi:                       "drun";
     show-icons:                 false;
-    display-drun:               "≡";
-    display-run:                "⚛︎";
+    display-drun:               "🔍︎";
+    display-run:                "✐";
     display-filebrowser:        "";
     display-window:             "";
     drun-display-format:        "{name}";
@@ -11,7 +11,7 @@ configuration {
 }
 
 /*****----- Global Properties -----*****/
-@import "/home/Ryan/.config/rofi/colors/colors.rasi"
+@import "~/.config/rofi/colors/colors.rasi"
 
 * {
     font:          "Noto Sans Mono Font 12";

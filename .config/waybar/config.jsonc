@@ -21,7 +21,7 @@
 
     "battery": {
         "format": "⚡ {capacity}%",
-	"device": "BAT0"
+        "device": "BAT0"
     },
 
     "clock": {
@@ -35,16 +35,17 @@
         "format-icons": {
             "default": ["🕪"]
         },
-        "scroll-step": 5,
-        "on-click": "pavucontrol"
+        "scroll-step": 2,
+        "on-click": "pavucontrol",
+        "tooltip-format": "Volume: {volume}%"
     },
 
     "backlight": {
         "device": "auto",
         "format": "<span font='13' weight='bold' rise='1600'>{percent}%</span> <span font='18'>{icon}</span>",
         "format-icons": ["☀"],
-        "on-scroll-up": "brightnessctl set +1%",
-        "on-scroll-down": "brightnessctl set 1%-",
+        "on-scroll-up": "brightnessctl set +2%",
+        "on-scroll-down": "brightnessctl set 2%-",
         "min-length": 6,
         "align": "right",
         "tooltip": false
