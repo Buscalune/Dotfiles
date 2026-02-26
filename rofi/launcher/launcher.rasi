@@ -3,7 +3,7 @@ configuration {
     modi:                       "drun";
     show-icons:                 false;
     display-drun:               "🔍︎";
-    display-run:                "⚛︎✐";
+    display-run:                "✐";
     display-filebrowser:        "";
     display-window:             "";
     drun-display-format:        "{name}";
