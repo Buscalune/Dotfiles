@@ -72,7 +72,7 @@ window#waybar {
 
 #pulseaudio {
     padding: 2px 11px;          /* horizontal padding stays */
-    margin: 15px 5px 7px 5px;   /* top, right, bottom, left */
+    margin: 10px 5px 7px 5px;   /* top, right, bottom, left */
     background: transparent;
     border-radius: 30px;
     font-size: 16px;

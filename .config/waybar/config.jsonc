@@ -31,9 +31,9 @@
 
     "pulseaudio": {
         "format": "{volume}% {icon}",
-        "format-muted": "🕪×",
+        "format-muted": "♫×",
         "format-icons": {
-            "default": ["🕪"]
+            "default": ["♫"]
         },
         "scroll-step": 2,
         "on-click": "pavucontrol",
@@ -52,8 +52,8 @@
     },
 
     "network": {
-        "format": "{essid} ᯤ",
-        "format-disconnected": "⚠︎"
+        "format": "{essid} ⌇",
+        "format-disconnected": "⌇̸"
     },
 
     "hyprland/workspaces": {
