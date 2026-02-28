@@ -27,7 +27,7 @@ Install required packages on Arch Linux with:
 
 sudo pacman -S kitty rofi waybar mako thunar pulseaudio pavucontrol \
 hyprpolkitagent xdg-desktop-portal-hyprland wl-clipboard slurp grim \
-git hyprpaper hyprlock fastfetch
+git hyprpaper hyprlock brightnessctl fastfetch 
 
 🎨 Theming
 
