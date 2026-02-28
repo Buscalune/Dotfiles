@@ -21,13 +21,20 @@ This repository contains configuration files for my Wayland desktop environment.
 
 .config/wallpapers — Wallpaper collection
 
-📦 Dependencies
+📦 Tutorial + Dependencies
 
-Install required packages on Arch Linux with:
+Install first required packages on Arch Linux with:
+sudo pacman -S kitty git
 
-sudo pacman -S kitty rofi waybar mako thunar pulseaudio pavucontrol \
+Then clone the repository:
+https://github.com/Buscalune/Dotfiles.git
+
+Install first required packages on Arch Linux with:
+sudo pacman -S rofi waybar mako thunar pulseaudio pavucontrol \
 hyprpolkitagent xdg-desktop-portal-hyprland wl-clipboard slurp grim \
-git hyprpaper hyprlock brightnessctl fastfetch 
+hyprpaper hyprlock brightnessctl fastfetch 
+
+Replace .config and .zshrc from the cloned repository into your home folder.
 
 🎨 Theming
 
